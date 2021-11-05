@@ -11,4 +11,4 @@ def collatz(collatz_number):
             print(collatz_number)
 
 
-print(collatz(22))
+print(collatz(int(input("Enter a number: "))))
