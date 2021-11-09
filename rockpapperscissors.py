@@ -1,3 +1,5 @@
+# Code can be made a lot shorter with functions and maybe a dictionary?
+# Needs refactoring
 import random
 
 ai_guess = random.randrange(0, 3)
