@@ -8,7 +8,7 @@ def fizzbuzz(num):
                 fizzbuzz_list.append("Fizz")
         if number % 5 == 0:
             fizzbuzz_list.append("Buzz")
-        else:
+        elif number % 5 != 0 and number % 3 != 0:
             fizzbuzz_list.append(number)
     return fizzbuzz_list
 
@@ -17,5 +17,3 @@ def fizzbuzz(num):
 fizzbuzz_text = open("fizzbuzz.txt", "w")
 fizzbuzz_text.write(str(fizzbuzz(500)))
 fizzbuzz_text.close
-
-
